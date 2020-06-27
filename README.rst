@@ -47,8 +47,8 @@ and use it:
             }
         )
 
-.. |Version| image:: https://badge.fury.io/py/amqpstorm-pool.svg?
-  :target: https://badge.fury.io/py/amqpstorm-pool
+.. |Version| image:: https://badge.fury.io/py/AMQPStorm-Pool.svg
+  :target: https://badge.fury.io/py/AMQPStorm-Pool
 
 .. |Travis| image:: https://travis-ci.org/eandersson/amqpstorm-pool.svg
   :target: https://travis-ci.org/eandersson/amqpstorm-pool
