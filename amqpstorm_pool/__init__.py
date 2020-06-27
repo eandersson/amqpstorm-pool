@@ -1,3 +1,14 @@
+__version__ = '1.0'
+__all__ = [
+    'Error',
+    'Timeout',
+    'Overflow',
+    'Connection',
+    'Pool',
+    'NullPool',
+    'QueuedPool',
+]
+
 from datetime import datetime
 import logging
 
@@ -12,19 +23,6 @@ import threading
 import time
 
 import amqpstorm
-
-
-__version__ = '0.1'
-
-__all__ = [
-    'Error',
-    'Timeout',
-    'Overflow',
-    'Connection',
-    'Pool',
-    'NullPool',
-    'QueuedPool',
-]
 
 
 LOGGER = logging.getLogger(__name__)
@@ -61,7 +59,8 @@ class Connection(object):
 
     #: Exceptions that imply connection has been invalidated.
     connectivity_errors = (
-        amqpstorm.AMQPError,
+        amqpstorm.AMQPConnectionError,
+        amqpstorm.AMQPChannelError,
     )
 
     @classmethod
