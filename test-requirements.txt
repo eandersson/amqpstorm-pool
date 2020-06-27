@@ -2,3 +2,4 @@ nose
 nose-timer
 coverage
 flake8
+requests
