@@ -2,6 +2,8 @@ AMQPStorm-Pool
 ==============
 `AMQPStorm <https://github.com/eandersson/amqpstorm>`_ connection pooling based on `pika-pool <https://github.com/bninja/pika-pool>`_.
 
+|Version| |Travis| |Coverage|
+
 usage
 -----
 
@@ -44,3 +46,12 @@ and use it:
                 'headers': {'key': 'value'}
             }
         )
+
+.. |Version| image:: https://badge.fury.io/py/amqpstorm-pool.svg?
+  :target: https://badge.fury.io/py/amqpstorm-pool
+
+.. |Travis| image:: https://travis-ci.org/eandersson/amqpstorm-pool.svg
+  :target: https://travis-ci.org/eandersson/amqpstorm-pool
+
+.. |Coverage| image:: https://codecov.io/gh/eandersson/amqpstorm-pool/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/eandersson/amqpstorm-pool

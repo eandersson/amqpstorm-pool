@@ -10,7 +10,8 @@ python:
 install:
   - pip install -r requirements.txt
   - pip install -r test-requirements.txt
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
 script:
   - nosetests -v -l DEBUG --logging-level=DEBUG --with-coverage --cover-package=amqpstorm_pool --with-timer --timer-top-n 10
-  - coverage report
   - flake8 .
