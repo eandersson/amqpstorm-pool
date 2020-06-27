@@ -1,1 +1,1 @@
-amqpstorm
+amqpstorm>=2.8.1
