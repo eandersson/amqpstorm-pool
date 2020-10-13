@@ -1,5 +1,5 @@
 arch: arm64
-dist: bionic
+dist: focal
 os: linux
 language: python
 python:
