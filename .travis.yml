@@ -1,4 +1,3 @@
-arch: arm64
 dist: focal
 os: linux
 language: python
